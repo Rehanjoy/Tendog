@@ -1,0 +1,149 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid {
+padding: 3% 15%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px 0 18px;
+}
+/* Download buttons */
+
+.download-button1 {
+    margin: 5% 3% 5% 0;
+}
+/* title image */
+.title-img {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+    
+}
+
+/* feature section */
+
+#features { 
+    padding: 10% 15% 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5rem;
+    
+}
+p {
+    color: gray;
+    font-size: 1rem;
+}
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+/* testimonial section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-img {
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+/* pricing section */
+
+#pricing {
+    padding: 100px; 
+    text-align: center;  
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+    .title-img {
+    width: 50%;
+    transform: rotate(0deg);
+    position: static;
+
+    }
+    #title {
+        text-align: center;   
+    }
+
+}
+
+/* footer section */
+#cta {
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 90px 0 0 0;
+
+    
+}
+.h3cta {
+    font-size: 50px;
+    width: 60%;
+    margin-left: 20%;
+    color: #fff;
+    line-height: 1.5;
+}
+#footer {
+    text-align: center;
+    line-height: 2;
+    padding: 40px 0 0 0;
+    line-height: 2.5;
+    background-color: #fff;
+
+}
+.iconn {
+    padding: 3px 6px;
+}
